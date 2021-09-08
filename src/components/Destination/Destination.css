@@ -1,0 +1,43 @@
+.destination-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 80vh;
+    padding: 20px;
+}
+
+.place-info {
+    font-size: 20px;
+    margin-right: 20px;
+    align-self: flex-start;
+    justify-self: center;
+    min-height: 200px;
+    min-width: 20%;
+}
+
+.map1 {
+    margin-left: 20px;
+    align-self: center;
+}
+
+.map1 img {
+    height: 80vh;
+}
+
+.pick-button {
+    background-color: tomato;
+    border: none;
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .map1 img {
+        height: 300px;
+    }
+    .place-info {
+        text-align: center;
+        margin-left: 150px;
+    }
+}

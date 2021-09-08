@@ -1,0 +1,21 @@
+.ride-detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.final-destination {
+    width: 200px;
+}
+
+.ride-detail img {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 600px) {
+    .final-destination{
+        width: 400px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,13 @@
+.create-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.create-box {
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.658);
+}

@@ -1,0 +1,42 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.login-box {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.658);
+    margin-top: 40px;
+}
+
+.google-btn {
+    width: 200px;
+    height: 30px;
+    background-color: tomato;
+    border: none;
+    border-radius: 15px;
+}
+
+input[type="text"], textarea {
+    background-color : #7a6b6b;   
+}
+
+input[type="password"], textarea {
+    background-color : #7a6b6b;   
+}
+
+input[type="email"], textarea {
+    background-color : #7a6b6b;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background: tomato; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+}
